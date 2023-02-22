@@ -1,0 +1,13 @@
+@font-face {
+  @include font("Raleway");
+  src: url("/fonts/Raleway.woff2") format("woff2"),
+  url("/fonts/Raleway.woff") format("woff"),
+  url("/fonts/Raleway.ttf") format("ttf");
+}
+
+@font-face {
+  @include font("Montserrat");
+  src: url("/fonts/Montserrat.woff2") format("woff2"),
+  url("/fonts/Montserrat.woff") format("woff"),
+  url("/fonts/Montserrat.ttf") format("ttf");
+}

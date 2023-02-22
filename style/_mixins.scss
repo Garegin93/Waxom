@@ -1,0 +1,44 @@
+@mixin font($font) {
+  font: {
+    family: $font;
+    style: normal;
+    weight: 400;
+    display: swap;
+  }
+}
+
+@mixin body {
+  font: {
+    family: $ffBody;
+    weight: $fwBody;
+    size: $fsBody;
+  }
+  line-height: $lhBody;
+  max-width: $maxWidthBody;
+}
+
+@mixin flex($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  @content
+}
+
+@mixin btnCarousel {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  background-color: transparent;
+  transform: rotate(45deg);
+  cursor: pointer;
+  position: relative;
+  top: 130px;
+}
+
+@mixin bgImage {
+  background: {
+    repeat: no-repeat;
+    size: cover;
+    color: #000000;
+  }
+}
