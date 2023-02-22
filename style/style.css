@@ -34,7 +34,7 @@
 /*header*/
 .header {
   padding: 40px 50px 38px;
-  background-image: url("/img/montain.png");
+  background-image: url("../img/montain.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
